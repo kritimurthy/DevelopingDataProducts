@@ -17,8 +17,10 @@ shinyUI(
     mainPanel(
       h3('About this app'),
       p('This app asks for two inputs - your weight (in lbs) and your height (in inches). It then calculates your BMI using a simple formula: BMI = (weight*703/height^2). Your BMI is then displayed in the sidebar.'),
-      p('The app goes one step further and analyzes your BMI as well. Going by widely accepted standards, if your BMI is less than 18.5, you are considered underweight. If your BMI is between 18.5 and 25, you are of normal weight. A BMI between 25 and 30 indicates that you are overweight whereas a BMI of 30 or greater means it is time to hit the treadmill. You are obese.')
-
+      p('The app goes one step further and analyzes your BMI as well. Going by widely accepted standards if your BMI is less than 18.5 you are considered underweight.'),
+      p('If your BMI is between 18.5 and 25 you are of normal weight. A BMI between 25 and 30 indicates that you are overweight.'),
+      p('A BMI of 30 or greater means it is time to hit the treadmill. You are obese.'),
+      p('Please note that this calculation works best if you are at least 20 years old')
       )
     )
   )
